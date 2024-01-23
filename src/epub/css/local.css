@@ -36,15 +36,15 @@ footer{
 /* End Letter formatting */
 
 #police-operation blockquote{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 #he-walked-around-the-horses blockquote:first-of-type,
 #police-operation blockquote:first-of-type{
 	font-style: italic;
-	text-align: initial;
 	font-variant: none;
+	text-align: initial;
 }
 
 #he-walked-around-the-horses blockquote header p:first-of-type{
