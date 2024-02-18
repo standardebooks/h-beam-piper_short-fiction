@@ -16,14 +16,6 @@ footer{
 	text-align: right;
 }
 
-q{
-	font-style: italic;
-}
-
-q i{
-	font-style: normal;
-}
-
 [epub|type~="z3998:salutation"] + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
@@ -43,6 +35,14 @@ q i{
 }
 /* End Letter formatting */
 
+q{
+	font-style: italic;
+}
+
+q i{
+	font-style: normal;
+}
+
 #police-operation blockquote{
 	font-variant: small-caps;
 	text-align: center;
@@ -54,10 +54,18 @@ q i{
 	font-variant: none;
 	text-align: initial;
 }
-
+#operation-rsvp blockquote header p:first-of-type,
 #he-walked-around-the-horses blockquote header p:first-of-type{
 	font-style: italic;
 	margin-bottom: 0.5em;
 	text-align: center;
 	text-indent: 0;
+}
+
+blockquote.newspaper-article{
+	text-align: center;
+}
+
+blockquote.newspaper-article p:first-of-type{
+	font-style: italic;
 }
