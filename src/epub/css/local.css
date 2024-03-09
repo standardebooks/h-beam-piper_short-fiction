@@ -63,10 +63,23 @@ q i{
 	text-indent: 0;
 }
 
+#lone-star-planet blockquote header{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
 blockquote.newspaper-article{
 	text-align: center;
 }
 
 blockquote.newspaper-article p:first-of-type{
 	font-style: italic;
+}
+
+/* This is so we can give attribution to a second author of the story */
+.authors{
+	font-style: italic;
+	text-align: center;
+	text-indent: 0;
 }
