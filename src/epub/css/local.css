@@ -78,7 +78,6 @@ blockquote.newspaper-article p:first-of-type{
 }
 
 /* styling for songs and verse */
-
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
