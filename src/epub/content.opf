@@ -150,7 +150,8 @@
 		<dc:contributor id="transcriber-5">Susan Skinner</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Skinner, Susan</meta>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>		<dc:contributor id="transcriber-6">Richard Tonsin</dc:contributor>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Richard Tonsin</dc:contributor>
 		<meta property="file-as" refines="#transcriber-6">Tonsin, Richard</meta>
 		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-7">Sankar Viswanathan</dc:contributor>

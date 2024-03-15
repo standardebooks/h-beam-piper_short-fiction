@@ -42,13 +42,13 @@
 			<reason>The original title of the story was Null-ABC, but lint demands that ABC be changed to A.B.C. It then complains that the title is not correctly titlecased, and that a header cannot end in a period. You can’t have it both ways!</reason>
 		</ignore>
 	</file>
-		<file path="the-edge-of-the-knife.xhtml">
+	<file path="the-edge-of-the-knife.xhtml">
 		<ignore>
 			<code>y-024</code>
 			<reason>The colloquial expression ‘that-there’ is correct as is.</reason>
 		</ignore>
 	</file>
-		<file path="local.css">
+	<file path="local.css">
 		<ignore>
 			<code>c-006</code>
 			<reason>This is baffling! The corresponding style (copied from the SEMS) is definitely in local.css, and I can prove that it is correctly being applied to the text instance by temporarily styling the text color in the same selector to red. But lint is objecting and saying it isn't there. Is it a bug in lint?</reason>
