@@ -16,6 +16,14 @@ footer{
 	text-align: right;
 }
 
+[epub|type~="z3998:acronym"]{
+	font-variant: all-small-caps;
+}
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
 [epub|type~="z3998:salutation"] + p,
 [epub|type~="z3998:letter"] header + p{
 	text-indent: 0;
@@ -26,6 +34,7 @@ footer{
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:postscript"]{
@@ -46,6 +55,7 @@ q i{
 #police-operation blockquote{
 	font-variant: small-caps;
 	text-align: center;
+	text-indent: 0;
 }
 
 #he-walked-around-the-horses blockquote:first-of-type,
@@ -69,41 +79,40 @@ q i{
 	text-indent: 0;
 }
 
-blockquote.newspaper-article{
+blockquote.newspaper-article p{
 	text-align: center;
+	text-indent: 0;
 }
 
 blockquote.newspaper-article p:first-of-type{
 	font-style: italic;
 }
 
+blockquote.newspaper-article p:first-of-type i{
+	font-style: normal;
+}
+
 /* styling for songs and verse */
-[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:song"] p > span + br{
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:song"] p + p{
-	margin-top: 1em;
 }
 
 p span.i1{
 	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
 	text-indent: -1em;
 }
 

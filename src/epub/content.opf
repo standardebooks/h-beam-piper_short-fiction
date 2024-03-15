@@ -28,43 +28,146 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Science fiction</dc:subject>
+		<dc:subject id="subject-2">Short stories</dc:subject>
+		<dc:subject id="subject-3">Human-alien encounters--Fiction</dc:subject>
+		<dc:subject id="subject-4">Time travel--Fiction</dc:subject>
+		<dc:subject id="subject-5">Extraterrestrial beings--Fiction</dc:subject>
+		<dc:subject id="subject-6">Space flight--Fiction</dc:subject>
+		<dc:subject id="subject-7">Paranormal fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85118629</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85121813</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008105650</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008112697</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2009125313</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2008111360</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh98004865</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
+		<dc:description id="description">A collection of science fiction stories by H. Beam Piper ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/h-beam-piper"&gt;H. Beam Piper&lt;/a&gt; was a well-regarded and popular American science fiction author in the 1940s, 1950s and early 1960s, publishing many short stories, novelettes, novellas and novels in the genre. One major strand of his writing envisaged a future history based on human civilization expanding through the galaxy, with a rather paternalistic approach to sentient alien species. Another important theme was Piper’s concept of ‘Paratime’: the idea that there are many parallel timelines branching off from each other, and that it is possible with the right technology to move between these different timelines, and even carry out commerce between them. There’s frequently a rather tongue-in-cheek humor in many of his stories and novels.&lt;/p&gt;
+			&lt;p&gt;This collection of the short fiction of H. Beam Piper covers a wide range of his shorter fiction, almost all of which was published in various American science fiction magazines. One additional story included in this collection, “Rebel Raider,” however, is not science fiction or fantasy but a lightly-fictionalised account of events in the U.S. Civil War. A few of the stories were written in collaboration with John J. McGuire.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://archive.org/details/Amazing_Stories_v25n01_1951-01_cape1736</dc:source>
+		<dc:source>https://archive.org/details/Amazing_Stories_v31n05_1957-05_cape1736</dc:source>
+		<dc:source>https://archive.org/details/Amazing_Stories_v33n05_1959-05_cape1736</dc:source>
+		<dc:source>https://archive.org/details/Fantastic_Universe_v07n03_1957-03</dc:source>
+		<dc:source>https://archive.org/details/Fantastic_Universe_v11n04_1959-07</dc:source>
+		<dc:source>https://archive.org/details/FantasticUniverseV12n02195912Steve82Sleipnir</dc:source>
+		<dc:source>https://archive.org/details/Future_Science_Fiction_v01n03_1950-09-10</dc:source>
+		<dc:source>https://archive.org/details/Future_Science_Fiction_v02n03_1951-09_Gorgon776</dc:source>
+		<dc:source>https://archive.org/details/galaxymagazine-1958-02</dc:source>
+		<dc:source>https://archive.org/details/sim_analog-science-fiction-fact_1960-11_66_3</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1947-04_39_2</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1948-04_41_2</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1948-07_41_5</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1950-03_45_1</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1950-08_45_6</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1951-04_47_2</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1951-09_48_1</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1953-02_50_6</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1953-03_51_1</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1954-01_52_5</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1955-02_54_6</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1955-03_55_1</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1957-02_58_6</dc:source>
+		<dc:source>https://archive.org/details/sim_astounding-science-fiction_1958-12_62_4</dc:source>
+		<dc:source>https://archive.org/details/Venture_v01n04_1957-07_jodyanimator</dc:source>
+		<dc:source>https://archive.org/details/Weird_Tales_v43n03_1951-03</dc:source>
+		<dc:source>https://s3.us-west-1.wasabisys.com/luminist/SF/AN/AN_1962_01.pdf</dc:source>
+		<dc:source>https://s3.us-west-1.wasabisys.com/luminist/SF/AN/AN_1962_04.pdf</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18105</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18109</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18151</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18261</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18342</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18346</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18460</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18584</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18632</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18641</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18800</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18807</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18814</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18831</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18855</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18861</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/18949</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/19067</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/19076</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/19102</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/19194</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/19338</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/19445</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/20121</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/20649</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/20659</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/20726</dc:source>
+		<dc:source>https://www.zarthani.net/docs/rebel_raider-true_dec_1950.pdf</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-beam-piper_short-fiction</meta>
 		<dc:creator id="author">H. Beam Piper</dc:creator>
 		<meta property="file-as" refines="#author">Piper, H. Beam</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Beam Piper</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Beam_Piper</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81081941</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="contributor">John J. McGuire</dc:contributor>
+		<meta property="file-as" refines="#contributor">McGuire, John J.</meta>
+		<meta property="se:name.person.full-name" refines="#contributor">John Joseph McGuire</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor">https://en.wikipedia.org/wiki/John_J._McGuire</meta>
+		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/no2016037968</meta>
+		<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Malcolm Farmer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Farmer, Malcolm</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Geetu Melwani</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Melwani, Geetu</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Tom Owens</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Owens, Tom</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Susan Skinner</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Skinner, Susan</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>		<dc:contributor id="transcriber-6">Richard Tonsin</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Tonsin, Richard</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-7">Sankar Viswanathan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Viswanathan, Sankar</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-8">Greg Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Weeks, Greg</meta>
+		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-9">William Woods</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Woods, William</meta>
+		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-10">L.N. Yaddanapudi</dc:contributor>
+		<meta property="file-as" refines="#transcriber-10">Yaddanapudi, L.N.</meta>
+		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg. David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
