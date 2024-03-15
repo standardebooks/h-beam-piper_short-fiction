@@ -27,7 +27,7 @@
 	<file path="police-operation.xhtml">
 		<ignore>
 			<code>t-017</code>
-			<reason>The title of the book cited is ‘Lo!’ so the exclamation should certainly be included in the semantic formatting.</reason>
+			<reason>The title of the book cited is “Lo!” so the exclamation should certainly be included in the semantic formatting.</reason>
 		</ignore>
 	</file>
 	<file path="null-abc.xhtml">
@@ -45,13 +45,13 @@
 	<file path="the-edge-of-the-knife.xhtml">
 		<ignore>
 			<code>y-024</code>
-			<reason>The colloquial expression ‘that-there’ is correct as is.</reason>
+			<reason>The colloquial expression “that-there” is correct as is.</reason>
 		</ignore>
 	</file>
 	<file path="local.css">
 		<ignore>
 			<code>c-006</code>
-			<reason>This is baffling! The corresponding style (copied from the SEMS) is definitely in local.css, and I can prove that it is correctly being applied to the text instance by temporarily styling the text color in the same selector to red. But lint is objecting and saying it isn't there. Is it a bug in lint?</reason>
+			<reason>This is baffling! The corresponding style (copied from the SEMS) is definitely in local.css, and I can prove that it is correctly being applied to the text instance by temporarily styling the text color in the same selector to red. And the all-small-caps is also being applied. But lint is objecting and saying it isn't there. Is it a bug in lint?</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
