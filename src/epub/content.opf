@@ -130,10 +130,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor">https://en.wikipedia.org/wiki/John_J._McGuire</meta>
 		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/no2016037968</meta>
 		<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Luigi Russolo</dc:contributor>
+		<meta property="file-as" refines="#artist">Russolo, Luigi</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Luigi_Russolo</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/n80028501</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Malcolm Farmer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Farmer, Malcolm</meta>
