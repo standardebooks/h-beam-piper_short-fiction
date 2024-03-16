@@ -79,6 +79,10 @@ q i{
 	text-indent: 0;
 }
 
+#lone-star-planet div+p{
+	text-indent: 0;
+}
+
 blockquote.newspaper-article p{
 	text-align: center;
 	text-indent: 0;
