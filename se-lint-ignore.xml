@@ -48,10 +48,4 @@
 			<reason>The colloquial expression “that-there” is correct as is.</reason>
 		</ignore>
 	</file>
-	<file path="local.css">
-		<ignore>
-			<code>c-006</code>
-			<reason>This is baffling! The corresponding style (copied from the SEMS) is definitely in local.css, and I can prove that it is correctly being applied to the text instance by temporarily styling the text color in the same selector to red. And the all-small-caps is also being applied. But lint is objecting and saying it isn't there. Is it a bug in lint?</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
