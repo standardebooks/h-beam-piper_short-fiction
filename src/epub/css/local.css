@@ -79,7 +79,7 @@ q i{
 	text-indent: 0;
 }
 
-#lone-star-planet div+p{
+#lone-star-planet div + p{
 	text-indent: 0;
 }
 
