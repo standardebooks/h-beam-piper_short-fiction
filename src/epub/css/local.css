@@ -126,3 +126,7 @@ p span.i1{
 	text-align: center;
 	text-indent: 0;
 }
+
+#lone-star-planet-2 blockquote:last-of-type{
+	font-style: italic;
+}
