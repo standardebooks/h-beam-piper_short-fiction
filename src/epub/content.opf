@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/h-beam-piper/short-fiction</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-03-20T21:24:25Z</dc:date>
+		<meta property="dcterms:modified">2024-03-20T21:24:25Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -54,8 +54,8 @@
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of science fiction stories by H. Beam Piper ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/h-beam-piper"&gt;H. Beam Piper&lt;/a&gt; was a well-regarded and popular American science fiction author in the 1940s, 1950s and early 1960s, publishing many short stories, novelettes, novellas and novels in the genre. One major strand of his writing envisaged a future history based on human civilization expanding through the galaxy, with a rather paternalistic approach to sentient alien species. Another important theme was Piper’s concept of “Paratime”: the idea that there are many parallel timelines branching off from each other, and that it is possible with the right technology to move between these different timelines, and even carry out commerce between them. There’s frequently a rather tongue-in-cheek humor in many of his stories and novels.&lt;/p&gt;
-			&lt;p&gt;This collection of the short fiction of H. Beam Piper covers a wide range of his shorter fiction, almost all of which was published in various American science fiction magazines. One additional story included in this collection, “Rebel Raider,” however, is not science fiction or fantasy but a lightly-fictionalised account of events in the U.S. Civil War. A few of the stories were written in collaboration with John J. McGuire.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/h-beam-piper"&gt;H. Beam Piper&lt;/a&gt; was a well-regarded and popular American science fiction author active in the 1940s, 1950s and early 1960s, who published many science fiction short stories, novelettes, novellas and novels. One major strand in his writing is envisioning a future history based on human civilization expanding throughout the galaxy, with a rather paternalistic approach to sentient alien species. Another important theme was Piper’s concept of “Paratime”: the idea that there are many parallel timelines branching off from each other, and that it’s possible—with the right technology—to move, and even carry out commerece, between these different timelines. Many of these stories are also frequently feature a rather tongue-in-cheek humor.&lt;/p&gt;
+			&lt;p&gt;This collection covers a wide range of his shorter fiction, almost all of which was published in various American science fiction magazines. One additional story included in this collection, “Rebel Raider,” however, is not science fiction or fantasy but a lightly-fictionalized account of events in the U.S. Civil War. A few of the stories were written in collaboration with John J. McGuire.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://archive.org/details/Amazing_Stories_v25n01_1951-01_cape1736</dc:source>
@@ -114,9 +114,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/20659</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/20726</dc:source>
 		<dc:source>https://www.zarthani.net/docs/rebel_raider-true_dec_1950.pdf</dc:source>
-		<meta property="se:production-notes">Because this collection comprises a variety of stories published over a couple of decades, there were inconsistencies of hyphenation of such words as “visi-screen” and “air-car” which I’ve standardised with editorial commits, generally by removing the hyphen.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">384540</meta>
+		<meta property="se:reading-ease.flesch">64.2</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-beam-piper_short-fiction</meta>
 		<dc:creator id="author">H. Beam Piper</dc:creator>
 		<meta property="file-as" refines="#author">Piper, H. Beam</meta>
@@ -175,6 +174,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
