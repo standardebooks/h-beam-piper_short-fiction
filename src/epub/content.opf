@@ -114,7 +114,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/20659</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/20726</dc:source>
 		<dc:source>https://www.zarthani.net/docs/rebel_raider-true_dec_1950.pdf</dc:source>
-		<meta property="se:word-count">384540</meta>
+		<meta property="se:word-count">384537</meta>
 		<meta property="se:reading-ease.flesch">64.2</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-beam-piper_short-fiction</meta>
 		<dc:creator id="author">H. Beam Piper</dc:creator>
