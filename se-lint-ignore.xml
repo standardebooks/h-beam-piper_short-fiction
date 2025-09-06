@@ -6,40 +6,36 @@
 			<reason>Spaces correctly follow dashes (hyphens) in this file as the character is discussing word construction in an alien language.</reason>
 		</ignore>
 	</file>
-	<file path="omnilingual.xhtml">
-		<ignore>
-			<code>t-033</code>
-			<reason>Spaces correctly follow dashes (hyphens) in this file as the character is discussing word construction in an alien language.</reason>
-		</ignore>
-	</file>
 	<file path="lone-star-planet.xhtml">
 		<ignore>
 			<code>t-003</code>
 			<reason>Double quote in line 470 correctly is omitted at end of paragraph as speech continues to next paragraph. </reason>
 		</ignore>
-	</file>
-	<file path="lone-star-planet.xhtml">
 		<ignore>
 			<code>t-017</code>
 			<reason>The cry “yipeee!” is an independent unit and it wouldn’t make sense to place the exclamation mark outside of the italics.</reason>
-		</ignore>
-	</file>
-	<file path="police-operation.xhtml">
-		<ignore>
-			<code>t-017</code>
-			<reason>The title of the book cited is “Lo!” so the exclamation should certainly be included in the semantic formatting.</reason>
-		</ignore>
-	</file>
-	<file path="null-abc.xhtml">
-		<ignore>
-			<code>t-065</code>
-			<reason>The original title of the story was Null-ABC, but lint demands that ABC be changed to A.B.C. It then complains that the title is not correctly titlecased, and that a header cannot end in a period. You can’t have it both ways!</reason>
 		</ignore>
 	</file>
 	<file path="null-abc.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>The original title of the story was Null-ABC, but lint demands that ABC be changed to A.B.C. It then complains that the title is not correctly titlecased, and that a header cannot end in a period. You can’t have it both ways!</reason>
+		</ignore>
+		<ignore>
+			<code>t-065</code>
+			<reason>The original title of the story was Null-ABC, but lint demands that ABC be changed to A.B.C. It then complains that the title is not correctly titlecased, and that a header cannot end in a period. You can’t have it both ways!</reason>
+		</ignore>
+	</file>
+	<file path="omnilingual.xhtml">
+		<ignore>
+			<code>t-033</code>
+			<reason>Spaces correctly follow dashes (hyphens) in this file as the character is discussing word construction in an alien language.</reason>
+		</ignore>
+	</file>
+	<file path="police-operation.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>The title of the book cited is “Lo!” so the exclamation should certainly be included in the semantic formatting.</reason>
 		</ignore>
 	</file>
 	<file path="the-edge-of-the-knife.xhtml">
