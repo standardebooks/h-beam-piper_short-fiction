@@ -170,7 +170,7 @@
 		<meta property="file-as" refines="#transcriber-10">Yaddanapudi, L.N.</meta>
 		<meta property="role" refines="#transcriber-10" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
-		<meta property="file-as" refines="#producer-1">Grigg. David</meta>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
 		<link href="https://thegriggs.org/david/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
